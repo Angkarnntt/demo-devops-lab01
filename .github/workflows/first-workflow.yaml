@@ -1,0 +1,12 @@
+name: First Workflow
+
+on:
+  push:
+    branches:
+    - "main"
+jobs:
+  lab-job:
+    runs-on: ubuntu-lastest
+    steps:
+      - name: Start job
+        run: echo ' Hello DevOps'
